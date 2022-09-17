@@ -1,0 +1,793 @@
+    <!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Coursera
+  </title>
+  <link rel="stylesheet" href="course.css">
+  <script>
+  function login(){
+    console.log("hello");
+    var a= document.forms["login-form"]["useremail"].value;
+    console.log(a);
+    var b= document.forms["login-form"]["password"].value;
+    console.log(b);
+    if (a=="") {
+      alert("please enter email");
+
+    }
+    else if(a.length<3){
+      alert("value should be greater then three");
+    }
+    else{
+      alert("succes");
+    }
+    return false;
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container header">
+      <div class="menu-bars">
+        <img src="https://static.thenounproject.com/png/668572-200.png" alt="">
+      </div>
+      <div class="logo">
+        <img src="/img/download.svg" alt="coursera" width="127px" height="32px">
+      </div>
+
+      <div class="menu-bars">
+          <img src="https://static.thenounproject.com/png/668572-200.png" alt="">
+
+      </div>
+
+
+
+      <div class="explore-button">
+        <button type="button" name="button" class="explr-btn">Explore</button>
+        <div class="menuitem">
+          <ul>
+            <li>explore Item 1</li>
+            <li>explore Item 2</li>
+            <li>explore Item 3</li>
+            <li>explore Item 4</li>
+          </ul>
+        </div>
+      </div>
+      <div class="search dropdown">
+        <input type="text"class="search-input" name="" value="" placeholder="what do you want">
+        <button type="button" name="button" class="search-btn"><!--<img src="/img/search.png" height="30px" width="30px" alt="">--></button>
+        <div class="dropdown-menu">
+          <ul>
+            <li>search Item 1</li>
+            <li>search Item 2</li>
+            <li>search Item 3</li>
+            <li>search Item 4</li>
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#degree-section">Online Degree</a></li>
+          <li><a href="#company-section">Company</a></li>
+          <li><a href="mailto:cpmall2010@gmail.com">Mail</a></li>
+          <li><a href="tel:9808152341">call</a></li>
+          <li><a href="#about-us-section">About us</a></li>
+          <li><a href="#course-section">course</a></li>
+          <li><a class="btn-login" href="#login-section" target="_self">Login</a></li>
+          <li class="sign-up">
+            <a class="btn-sign-up" href="#">Join for Free</a>
+            <div class="drp-sin-menu">
+              text
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="degree-section">
+    <!--start top-bar-->
+    <div class="top-bar">
+      <div>
+      New! Launch your career as a web developer with <a href="#career-section">new Professional Certificates from Meta. </a>
+      </div>
+      <button type="button" name="button">x</button>
+    </div>
+    <!--end top-bar-->
+    <!--start-bottom-section-->
+    <div class="bottom-bar-ist">
+      <div class="bottom-bar">
+        <div class="upper-heading">
+          <h1>
+            Learn Without
+            Limits
+          </h1>
+          <p>
+            Start, switch, or advance your career with more than 5,000<br> courses, Professional Certificates, and degrees from world-class<br> universities and companies.
+          </p>
+          <button type="button" class="btn-bottom" name="button">Join for Free</button>
+          <button type="button" class="btn-bottom-second" name="button">Try Coursera for Buisness</button>
+        </div>
+        <div class="img">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/33EmCuyKJT5MD5DOiYCcCV/039a898dbd7556527e6da15764fab4c1/C_Learner_Lochan.png?auto=format%2Ccompress&dpr=1&w=459&h=497&q=40" alt="">
+        </div>
+      </div>
+    </div>
+    <!--end-bottom-section-->
+  </section>
+  <section id="company-section">
+    <div>
+      <h2>
+        <a href="#company-section" style="text-decoration:none; color:black; ">We collaborate with</a> <a href="#company-section" style="text-decoration:none; color:blue;">200+ leading universities and companies</a>
+      </h2>
+      </div>
+      <div class="logo-section">
+        <div class="iit-logo">
+          <img src="/img/download.png" alt="">
+        </div>
+      <div class="m-logo">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/60SA8pGxPXMmJf4n7umK1H/ccec31bbe2358210bf8391dcba6cd2f1/umich.png?auto=format%2Ccompress&dpr=1&w=&h=55" alt="">
+      </div>
+      <div class="google-logo">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1c6RjBHi3Lqb9QpWxje7iA/b529f909c5230af3210ba2d47d149620/google.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+      </div>
+      <div class="meta-logo">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3bmmVE1BHvDQUFldOXgDQe/75409a97cfd2ee95178b05d475eaaf04/meta.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+      </div>
+      <div class="iws-logo">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/a2AuMXiugp5PM6uun7iCA/4fe0cdee6bd59fec786d3feb24bacfd8/1200px-Amazon_Web_Services_Logo.svg.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+      </div>
+      <div class="iit-logo">
+        <img src="/img/download.png" alt="">
+    .     </div>
+      <div class="Stanford-logo">
+        <img src="/img/images.png" alt="">
+      </div>
+      <div>
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/7vM8QjnKMPx9iWPBLDAeSI/9acdbc853fc01ce38df8fa67896a09bf/Indian_Institute_of_Technology_Roorkee_logo.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+      </div>
+      <div class="isb-logo">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/9V0ZHPEeFBPLlhvvCnS0x/0310b67e486733af9c9b1ba8be8d072b/ISB_transparent_logo.png?auto=format%2Ccompress&dpr=1&w=&h=37" alt="">
+      </div>
+      <div class="ibm-logo">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4adnkcJIgVKTinBB0j9GF8/5fe5eecf60bf305dd0a7ce40bb721cd9/ibm.png?auto=format%2Ccompress&dpr=1&w=&h=32" alt="">
+      </div>
+    </div>
+
+  </section>
+  <section id="about-us-section">
+    <div class="heading">
+      <h3>Professional Certificates</h3>
+      <h1>Get job-ready for an in-demand career</h1>
+      <h4>Break into a new field like information technology or data science. No prior experience necessary to get started.</h4>
+    </div>
+    <div class="about-us-container">
+      <div class="container-main">
+        <div class="img-class">
+            <img src="img/0_Moses.jpeg" alt="">
+        </div>
+
+        <div class="img-text">
+          <div class="logo-meta">
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/73/e03b13a8e44df9b19eb279e5506396/360-x-360.png?auto=compress&dpr=1&w=72&h=72" alt="">
+          </div>
+          <div class="bottom-text">
+              <a href="#">Googal Digital Marketing
+               & Ecomerce</a>
+              <small>Google</small>
+               <span> Professional Course</span>
+          </div>
+        </div>
+      </div>
+      <div class="container-main">
+        <div class="img-class">
+            <img src="img/0_Moses.jpeg" alt="">
+        </div>
+
+        <div class="img-text">
+          <div class="logo-meta">
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/73/e03b13a8e44df9b19eb279e5506396/360-x-360.png?auto=compress&dpr=1&w=72&h=72" alt="">
+          </div>
+          <div class="bottom-text">
+              <a href="#">Googal Digital Marketing
+               & Ecomerce</a>
+              <small>Google</small>
+               <span> Professional Course</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-main">
+        <div class="img-class">
+            <img src="img/0_Moses.jpeg" alt="">
+        </div>
+
+        <div class="img-text">
+          <div class="logo-meta">
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/73/e03b13a8e44df9b19eb279e5506396/360-x-360.png?auto=compress&dpr=1&w=72&h=72" alt="">
+          </div>
+          <div class="bottom-text">
+              <a href="#">Googal Digital Marketing
+               & Ecomerce</a>
+              <small>Google</small>
+               <span> Professional Course</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-main">
+        <div class="img-class">
+            <img src="img/0_Moses.jpeg" alt="">
+        </div>
+
+        <div class="img-text">
+          <div class="logo-meta">
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/73/e03b13a8e44df9b19eb279e5506396/360-x-360.png?auto=compress&dpr=1&w=72&h=72" alt="">
+          </div>
+          <div class="bottom-text">
+              <a href="#">Googal Digital Marketing
+               & Ecomerce</a>
+              <small>Google</small>
+               <span> Professional Course</span>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="bullets">
+        <input type="button" name="" value="">
+        <input type="button" name="" value="">
+        <input type="button" name="" value="">
+      </div>
+      </section>
+
+  <section id="course-section">
+    <div class="heading">
+      <h3>
+        Master's and Bachelor's Degrees
+      </h3>
+      <h1>
+        Find a top degree that fits your life
+      </h1>
+      <h4>
+        Breakthrough pricing on 100% online degrees from top universities.
+      </h4>
+      </div>
+    <div class="about-us-container main-course">
+      <div class="course-card">
+        <div class="course-logo">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/degree-assets/unt-online-bachelor-completion/banner.jpg?auto=format%2Ccompress&dpr=1&w=270&h=90&q=40" alt="">
+        </div>
+        <div class="course-text">
+          <div>Master of Applied Data Science</div>
+          <div class="text">University of Michigan</div>
+
+        </div>
+        <div class="course-down">
+          <div class="left"></div>
+          <div class="right"></div>
+
+          <div class="bottombar">
+            <div class="course-text-left">
+              100% ONLNE
+            </div>
+            <div class="course-text-right">
+              <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png?auto=format%2Ccompress&dpr=1&w=36&h=36&q=40" alt="">
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="course-card">
+        <div class="course-logo">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/degree-assets/unt-online-bachelor-completion/banner.jpg?auto=format%2Ccompress&dpr=1&w=270&h=90&q=40" alt="">
+        </div>
+        <div class="course-text">
+          <div>Master of Applied Data Science</div>
+          <div class="text">University of Michigan</div>
+
+        </div>
+        <div class="course-down">
+          <div class="left"></div>
+
+
+          <div class="right"></div>
+
+          <div class="bottombar">
+            <div class="course-text-left">
+              100% ONLINE
+            </div>
+            <div class="course-text-right">
+              <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png?auto=format%2Ccompress&dpr=1&w=36&h=36&q=40" alt="">
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="course-card">
+        <div class="course-logo">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/degree-assets/unt-online-bachelor-completion/banner.jpg?auto=format%2Ccompress&dpr=1&w=270&h=90&q=40" alt="">
+        </div>
+        <div class="course-text">
+          <div>Master of Applied Data Science</div>
+          <div class="text">University of Michigan</div>
+
+        </div>
+        <div class="course-down">
+          <div class="left"></div>
+          <div class="right"></div>
+
+          <div class="bottombar">
+            <div class="course-text-left">
+              100% ONLINE
+            </div>
+            <div class="course-text-right">
+              <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png?auto=format%2Ccompress&dpr=1&w=36&h=36&q=40" alt="">
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="course-card">
+        <div class="course-logo">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/degree-assets/unt-online-bachelor-completion/banner.jpg?auto=format%2Ccompress&dpr=1&w=270&h=90&q=40" alt="">
+        </div>
+        <div class="course-text">
+          <div>Master of Applied Data Science</div>
+          <div class="text">University of Michigan</div>
+
+        </div>
+        <div class="course-down">
+          <div class="left"></div>
+          <div class="right"></div>
+
+          <div class="bottombar">
+            <div class="course-text-left">
+              100% ONLINE
+            </div>
+            <div class="course-text-right">
+              <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png?auto=format%2Ccompress&dpr=1&w=36&h=36&q=40" alt="">
+            </div>
+        </div>
+        </div>
+
+      </div>
+      </div>
+      </div>
+      <div class="bullets">
+        <input type="button" name="" value="">
+        <input type="button" name="" value="">
+        <input type="button" name="" value="">
+      </div>
+      <div class="explore-degree">
+        <a href="#">Explore Degree</a>
+        <img src="https://media.istockphoto.com/vectors/blue-arrow-vector-id1200157743?b=1&k=20&m=1200157743&s=170667a&w=0&h=Spu9JzoblpbUdZwhzMpfG_bhMVU7NKMMylEfd_I_Ttc=" alt="">
+      </div>
+    </div>
+    <div class="heading">
+      <h3>MasterTrack Certificates</h3>
+      <h1>Open new doors with graduate level learning</h1>
+      <h4>Earn an university-issued certificate and credit towards a degree</h4>
+    </div>
+
+
+  </section>
+  <section id="career-section">
+    <div class="course-card">
+      <div class="course-logo">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/ddp/branding/asu/artificial-intelligence-asu-banner.jpg?auto=format%2Ccompress&dpr=1&w=270&h=90&q=40" alt="">
+      <div class="course-text">
+        <div>AI and Machine Learning MasterTrack® Certificate</div>
+            </div>
+
+      <div class="course-down">
+        <div class="left"></div>
+        <div class="right"></div>
+
+        <div class="bottombar">
+          <div class="course-text-left">
+            100% ONLINE
+          </div>
+          <div class="course-text-right">
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png?auto=format%2Ccompress&dpr=1&w=36&h=36&q=40" alt="">
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="course-card">
+    <div class="course-logo">
+  <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/ddp/branding/asu/artificial-intelligence-asu-banner.jpg?auto=format%2Ccompress&dpr=1&w=270&h=90&q=40" alt="">
+    <div class="course-text">
+      <div>AI and Machine Learning MasterTrack® Certificate</div>
+          </div>
+    <div class="course-down">
+      <div class="left"></div>
+      <div class="right"></div>
+
+      <div class="bottombar">
+        <div class="course-text-left">
+          100% ONLINE
+        </div>
+        <div class="course-text-right">
+          <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png?auto=format%2Ccompress&dpr=1&w=36&h=36&q=40" alt="">
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="course-card">
+  <div class="course-logo">
+<img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/ddp/branding/asu/artificial-intelligence-asu-banner.jpg?auto=format%2Ccompress&dpr=1&w=270&h=90&q=40" alt="">
+  <div class="course-text">
+    <div>AI and Machine Learning MasterTrack® Certificate</div>
+        </div>
+  <div class="course-down">
+    <div class="left"></div>
+    <div class="right"></div>
+
+    <div class="bottombar">
+      <div class="course-text-left">
+        100% ONLINE
+      </div>
+      <div class="course-text-right">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png?auto=format%2Ccompress&dpr=1&w=36&h=36&q=40" alt="">
+      </div>
+  </div>
+  </div>
+</div>
+</div>
+<div class="course-card">
+  <div class="course-logo">
+<img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/ddp/branding/asu/artificial-intelligence-asu-banner.jpg?auto=format%2Ccompress&dpr=1&w=270&h=90&q=40" alt="">
+  <div class="course-text">
+    <div>AI and Machine Learning MasterTrack® Certificate</div>
+        </div>
+  <div class="course-down">
+    <div class="left"></div>
+    <div class="right"></div>
+
+    <div class="bottombar">
+      <div class="course-text-left">
+        100% ONLINE
+      </div>
+      <div class="course-text-right">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png?auto=format%2Ccompress&dpr=1&w=36&h=36&q=40" alt="">
+      </div>
+  </div>
+  </div>
+</div>
+</div>
+  </section>
+  <section id="status-section">
+    <div class="status-headings">
+      <h3>Explore Coursera</h3>
+    </div>
+    <div class="status-section">
+    <div class="status-container" >
+    <a href="#">
+      <div class="status-main">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+        <div>
+          <div class="status-heading">Buisness</div>
+          <div class="status-text">195 courses</div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="status-container" >
+  <a href="#">
+    <div class="status-main">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+      <div>
+        <div class="status-heading">Buisness</div>
+        <div class="status-text">195 courses</div>
+      </div>
+    </div>
+  </a>
+</div>
+<div class="status-container" >
+<a href="#">
+  <div class="status-main">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+    <div>
+      <div class="status-heading">Buisness</div>
+      <div class="status-text">195 courses</div>
+    </div>
+  </div>
+</a>
+</div>
+<div class="status-container" >
+<a href="#">
+  <div class="status-main">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+    <div>
+      <div class="status-heading">Buisness</div>
+      <div class="status-text">195 courses</div>
+    </div>
+  </div>
+</a>
+</div>
+<div class="status-container" >
+<a href="#">
+  <div class="status-main">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+    <div>
+      <div class="status-heading">Buisness</div>
+      <div class="status-text">195 courses</div>
+    </div>
+  </div>
+</a>
+</div>
+<div class="status-container" >
+<a href="#">
+  <div class="status-main">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+    <div>
+      <div class="status-heading">Buisness</div>
+      <div class="status-text">195 courses</div>
+    </div>
+  </div>
+</a>
+</div>
+<div class="status-container" >
+<a href="#">
+  <div class="status-main">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+    <div>
+      <div class="status-heading">Buisness</div>
+      <div class="status-text">195 courses</div>
+    </div>
+  </div>
+</a>
+</div>
+<div class="status-container" >
+<a href="#">
+  <div class="status-main">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+    <div>
+      <div class="status-heading">Buisness</div>
+      <div class="status-text">195 courses</div>
+    </div>
+  </div>
+</a>
+</div>
+<div class="status-container" >
+<a href="#">
+  <div class="status-main">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+    <div>
+      <div class="status-heading">Buisness</div>
+      <div class="status-text">195 courses</div>
+    </div>
+  </div>
+</a>
+</div>
+<div class="status-container" >
+<a href="#">
+  <div class="status-main">
+    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/browse/domains/data_science.png?auto=format%2Ccompress&dpr=1&fit=crop&h=100");"");"" alt="">
+    <div>
+      <div class="status-heading">Buisness</div>
+      <div class="status-text">195 courses</div>
+    </div>
+  </div>
+</a>
+</div>
+</div>
+
+
+
+</section>
+  <section id="menu-section">
+    <div class="menu-container">
+      <div class="menu-img menu-main">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/2QjC04BM3lOBkCBTcgcCiz/46dbd19b10b3a36350b1c39cc40b599d/ThreeImages-Marketing.png?auto=format%2Ccompress&dpr=1&w=606&h=553&q=40" alt="">
+    </div>
+    <div class="menu-text menu-main">
+      <h1>World-class learning for you.</h1>
+      <p>Pursue <b>a promotion, a raise, or switch careers. 89% of learners</b> who have taken a course <b>report career benefits.</b></p>
+      <h3>- Coursera Learner Outcome Survey, India (2021)</h3>
+      <button type="button" class="btn-bottom" name="button">Join for Free</button>
+    </div>
+    </div>
+  </section>
+    </section>
+
+
+  <section id="login-section" style="height:200px;text-align:center">
+    <form onsubmit="return login()" name="login-form">
+      <label for="useremail">Email:</label>
+      <input type="text" id="useremail" name="useremail" value=""><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" value=""><br>
+      <input type="submit" name="" value="Login">
+
+
+    </form>
+  </section>
+
+
+
+  <footer>
+    <div class="footer-main">
+    <div>
+      <h5>
+        Start or advance your careeer
+      </h5>
+      <div class="footer-links">
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+    </div>
+    </div>
+      <div>
+        <h5>
+          Browse Popular Topics
+        </h5>
+        <div class="footer-links">
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+      </div>
+      </div>
+      <div>
+        <h5>Popular courses and Articles
+        </h5>
+        <div class="footer-links">
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+      </div>
+      </div>
+      <div>
+        <h5>
+          Earn a Degree Or Certificate ONLINE
+        </h5>
+        <div class="footer-links">
+        <a href="#">google data analyst</a>
+        <a href="#">java</a>
+        <a href="#">python</a>
+        <a href="#">google data analyst</a>
+        <a href="#">java</a>
+        <a href="#">python</a>
+        <a href="#">google data analyst</a>
+        <a href="#">java</a>
+        <a href="#">python</a>
+        <a href="#">google data analyst</a>
+        <a href="#">java</a>
+        <a href="#">python</a>
+        <a href="#">google data analyst</a>
+        <a href="#">java</a>
+        <a href="#">python</a>
+      </div>
+      </div>
+    </div>
+    <div class="footer-main">
+    <div>
+      <h5>
+        Start or advance your careeer
+      </h5>
+      <div class="footer-links">
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+      <a href="#">google data analyst</a>
+      <a href="#">java</a>
+      <a href="#">python</a>
+    </div>
+    </div>
+      <div>
+        <h5>
+          Browse Popular Topics
+        </h5>
+        <div class="footer-links">
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+      </div>
+      </div>
+      <div>
+        <h5>Popular courses and Articles
+        </h5>
+        <div class="footer-links">
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+        <a href="#">Free courses</a>
+        <a href="#">Sqal</a>
+        <a href="#">Marketig Skills</a>
+      </div>
+      </div>
+      <div>
+        <div class="footer-links">
+
+      <img src="https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg" alt="">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png" alt="">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/2018-B-Corp-Logo-Black-S.png?auto=format%2Ccompress&dpr=1&w=151&h=120&q=40" alt="">
+
+    </div>
+    </div>
+    </div>
+    <div class="footer-down">
+      <h6>
+        © 2022 Coursera Inc. All rights reserved.
+      </h6>
+      <div class="footer-img">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/facebook.png?auto=format%2Ccompress&dpr=1&w=28&h=28&q=40" alt="">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/linkedin.png?auto=format%2Ccompress&dpr=1&w=28&h=28&q=40" alt="">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/twitter.png?auto=format%2Ccompress&dpr=1&w=28&h=28&q=40" alt="">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/youtube.png?auto=format%2Ccompress&dpr=1&w=28&h=28&q=40" alt="">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/footer/instagram.png?auto=format%2Ccompress&dpr=1&w=28&h=28&q=40" alt="">
+    </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>

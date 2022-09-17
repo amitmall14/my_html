@@ -1,0 +1,48 @@
+
+var ftGUID_6304654="527640DE6FF245";
+var ftConfID_6304654="23343243";
+var ftParams_6304654="ft_custom=AD1EzRQAAABoCmAKDAgAFQAAAAAdAAAAABIMCAAVAAAAAB0AAAAAIhMIq87bljyoAoa0kOYCsAKWvM4MQAnSAioYACITCLf4iq6ruvkCFYFVKwod9rABeigBMAE4upG2_tsPQAJIAViBgSAQ3pbhwQE8M9Asj-o5fg9Utfj05Uwf%2C16153765675%2C406342494%2CABAjH0gHJZWfmi-mv7roKk8zAlBk&ftOBA=1&ft_domain=www.w3schools.com&ft_ifb=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.w3schools.com%2F&gdpr=0&us_privacy=${US_PRIVACY}&cachebuster=664523.5109419094&ft_keyword=CON_IN&ft_c1=CON_IN&ft_section=%5BPUBLISHER%20AUCTION%20MACRO%5D";
+var ftKeyword_6304654="con_in";
+var ftCustom_6304654="AD1EzRQAAABoCmAKDAgAFQAAAAAdAAAAABIMCAAVAAAAAB0AAAAAIhMIq87bljyoAoa0kOYCsAKWvM4MQAnSAioYACITCLf4iq6ruvkCFYFVKwod9rABeigBMAE4upG2_tsPQAJIAViBgSAQ3pbhwQE8M9Asj-o5fg9Utfj05Uwf,16153765675,406342494,ABAjH0gHJZWfmi-mv7roKk8zAlBk";
+var ftSection_6304654="[PUBLISHER AUCTION MACRO]";
+var ftSegment_6304654="ahde,ageh,ysf,aixg";
+var ftSegmentList_6304654=[{s:'ahde'},{m:'c8562_audiences',s:'ageh'},{m:'dlldvus',s:'ysf',t:52780000},{s:'aixg'}];
+var ftRuleMatch_6304654="00010011";
+var ftTimestamp_6304654="1660068145";
+var ftGeoC2_6304654="in";
+var ftGeoState_6304654="dl";
+var ftGeoCity_6304654="delhi";
+var ftISP_6304654="bharti airtel limited";
+var ftSpeed_6304654="mobile";
+var ftDMA_6304654="356001";
+var ftLong_6304654="77.17";
+var ftLat_6304654="28.65";
+var ftPostal_6304654="110008";
+var ftTimeZone_6304654="530";
+var ftMobileCarrier_6304654="airtel";
+var ftImp6304654 = {};
+ftImp6304654.privacy = "x";
+ftImp6304654.guidAge = "58";
+ftImp6304654.impID = "0CEAFF68-0C85-DE94-5391-B4982B7A0D81";
+ftImp6304654.duid = "FT:527640DE6FF245";
+ftImp6304654.ft_tpplid = "";
+ftImp6304654.ft_c = {};
+ftImp6304654.ft_c.ft_c1 = "CON_IN";
+ftImp6304654.gdpr = "0";
+ftImp6304654.gdpr_consent = "";
+ftImp6304654.gdpr_pd = "";
+ftImp6304654.oob_consent = "";
+ftImp6304654.gdprStoredConsent = "";
+ftImp6304654.us_privacy = "!!US_PRIVACY!";
+
+ftImp6304654.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_6304654') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/630/6304654/3300691/js/j-6304654-3300691.js";
+    js.id = "ftscript_m6304654";
+    tag.parentNode.insertBefore(js, tag);
+}());

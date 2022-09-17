@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<script src="https://kit.fontawesome.com/48e648f7d8.js" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="date.css">
+
+		<title>Date</title>
+	</head>
+	<body id="home">
+		<div class="top-bar" id="top-bar" >
+
+			Sales
+			<i onclick="cross()" id="close" class="fa-solid fa-xmark"></i>
+
+		</div>
+
+		<div class="loader-main" id="loader">
+
+			<span><img src="https://i.stack.imgur.com/ATB3o.gif" alt="">loading...</span>
+
+		</div>
+
+		</div>
+		<header>
+		<div class="container" id="header">
+
+			<div class="men">
+				<a href="#">
+					<img src="https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s88-c-k-c0x00ffffff-no-rj" alt="">
+				</a>
+			</div>
+		<div class="menu mobile-menu" >
+
+		 <a class="menu-item" id="menu-item" href="javascript:void(0)" onclick="showmenu()">Menu<i id="arrow" class="fa-solid fa-caret-down"></i></a>
+
+
+		 	</div>
+			<div class="menu desktop-menu">
+
+			 <a class="menu-item" id="menu-item-1" href="javascript:void(0)" onclick="show_menu_1()">Tutorials <i id="arrow-1" class="fa-solid fa-caret-down"></i></a>
+
+		 </div>
+				<div class="menu desktop-menu">
+
+			 <a class="menu-item" id="menu-item-2" href="javascript:void(0)" onclick="show_menu_2()">References <i id="arrow-2" class="fa-solid fa-caret-down"></i></a>
+
+
+					</div>
+					<div class="menu desktop-menu">
+
+				<a class="menu-item" id="menu-item-3" href="javascript:void(0)" onclick="show_menu_3()">Exercise <i id="arrow-3" class="fa-solid fa-caret-down"></i></a>
+
+						</div>
+						<div class="menu desktop-menu">
+
+				<a class="menu-item" id="menu-item" href="javascript:void(0)" onclick="showmenu()">Videos <i id="arrow" class="fa-solid fa-caret-down"></i></a>
+
+
+							</div>
+
+
+
+
+		<div class="button">
+			<a id="login" onclick="loginbtn()" href="#">Login</a>
+	</div>
+
+
+	</div>
+</header>
+	<div id="menu-list">
+		<div class="close">
+		<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+	</div>
+ <ul>
+	 <li><a href="#">Tutorials</a>
+	 </li>
+	 <li><a href="#">Refences</a>
+	 </li>
+	 <li><a href="#">Exercise</a>
+	 </li>
+	 <li><a href="#">Get Certified</a>
+	 </li>
+	 <li><a href="#">Spaces</a>
+	 </li>
+	 <li><a href="#">Video</a>
+	 </li>
+	 <li><a href="#">Pro</a>
+	 </li>
+ </ul>
+</div>
+<div id="menu-dropdown-1" class="menu-dropdown">
+
+	Tutorials
+</div>
+<div id="menu-dropdown-2" class="menu-dropdown">
+
+	References
+</div>
+
+</div>
+<div id="menu-dropdown-3" class="menu-dropdown">
+
+	Exercise
+</div>
+
+</div>
+
+<div class="middle">
+	<div class="left">
+	<div class="menu-bars">
+		<i class="fa-solid fa-bars" onclick="menu()"></i>
+
+
+	</div>
+	<div class="add">
+	<div class="home">
+		<i class="fa-solid fa-house-chimney"></i>
+	</div>
+	<div class="html">
+			<a href="#">HTML</a>
+			<a href="#">CSS</a>
+			<a href="#">JAVASCRIPT</a>
+			<a href="#">SQL</a>
+			<a href="#">PYTHON</a>
+			<a href="#">PHP</a>
+			<a href="#">BOOTSTRAP</a>
+			<a href="#">HOW TO</a>
+			<a href="#">W3.CSS</a>
+	</div>
+</div>
+</div>
+	<div class="right">
+		<div class="circle" onclick="change_color();">
+			<i class="fa-solid fa-circle-dot"></i>
+	</div>
+		<div class="world">
+			<i class="fa-solid fa-earth-americas"></i>
+		</div>
+		<div class="search">
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</div>
+	</div>
+	</div>
+	<div id="menuline">
+
+		<div class="line">
+			<h3>HTML Tutorials</h3>
+		<ul>
+		<li>HTML HOME</li>
+		<li>HTML Introduction</li>
+		<li>HTML Editor</li>
+		<li>HTML Basic</li>
+		<li>HTML Elements</li>
+		<li>HTML Attribiutes</li>
+		<li>HTML Paragraphs</li>
+		<li>HTML Style</li>
+	</ul>
+</div>
+</div>
+
+<div class="btn_img">
+	<div class=button-img>
+		<div class="lefts">
+			<button type="button" onclick="bottan(-1)" name=""><</button>
+		</div>
+		<div class="rights">
+			<button type="button" onclick="bottan(1)" name="" id="next">></button>
+		</div>
+	</div>
+	<div class="img-main">
+		<div class="img_one">
+			<img src="images/1.jpg" alt="" >
+		</div>
+		<div class="img_one">
+			<img src="images/2.jpg" alt="">
+		</div>
+		<div class="img_one">
+			<img src="images/3.jpg" alt="">
+		</div>
+		<div class="img_one">
+			<img src="images/4.jpg" alt="">
+		</div>
+	</div>
+	<div class="slide">
+		<div id="current_slide">
+		</div> &nbsp;/&nbsp;
+		<div id="total_slide">
+		</div>
+
+	</div>
+
+</div>
+
+
+<div class="links">
+
+</div>
+<div class="main_box">
+</div>
+<div class="links">
+
+</div>
+
+<div class="main-popup">
+	<div class="popup">
+	<div class= "popupbody">
+<div class="imgw3">
+<img src="https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s88-c-k-c0x00ffffff-no-rj" alt="">
+
+<span>Login</span>
+<div id="close">
+		<i onclick="popupcross()" id="closebar" class="fa-solid fa-xmark"></i>
+</div>
+</div>
+<div class="box">
+	<div class="email">
+		<label for="">Email</label><br>
+		<a href="#">Sign up</a>
+	</div>
+	<input type="text" name="" value=""><br>
+	<div class="Password">
+	<label for="">Password</label><br>
+	<i class="fa-solid fa-eye" onclick="Passwords()" ></i></div>
+	<input type ="password"  id="inputpassword" name="" value="" onblur="passwordblure(this.value)">
+	<div id="errorpassword">
+	</div>
+</div>
+<div class="buttons">
+
+	<input type="button" name="" value="Login" placeholder="">
+</div>
+<div class="forget">
+	<a href="#">Forget Password?</a>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="footers"id="footer-bar">
+
+	<div class="foot-bar"  >
+			<button type="button" name="button"onclick="accept()">Accept cookie</button>
+
+		</div>
+	</div>
+<script src="date.js"></script>
+	</body>
+</html>

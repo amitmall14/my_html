@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+.container{
+  max-width: 1400px;
+  width: 100%;
+  padding: .5em 1em;
+
+}
+.header,nav ul {
+  display: flex;
+  align-items: center;
+
+}
+header{
+
+  background-color: white;
+  justify-content: center;
+  display: flex;
+
+
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  display: inline-block;
+  font-size: .80em;
+
+}
+nav ul li a:hover{color: blue;
+text-decoration: underline;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  margin-left: auto;
+
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: inherit;
+  background-color: #ffffff;
+  border-radius: 0 0 5px 5px;
+  min-width: 250px;
+  box-shadow: 0 0 5px 0px #00000052;
+}
+.dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+.btn-login{
+  color: blue;
+}
+.btn-sign-up{
+  background-color: blue;
+  color: white;
+font-weight: bold;
+padding: .5em 2em;}
+
+.explr-btn{
+  margin-left: 1.5em;
+  background-color: blue;
+  color: white;
+  padding: 0.8em 1.5em;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign-up{
+position: relative;
+}
+
+.drp-sin-menu{
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+}
+.sign-up:focus-within .drp-sin-menu{
+  opacity: 1;
+  visibility: visible;
+}
+.btn-sign-up:hover{
+  background-color: darkblue;
+color: white;
+text-decoration: none;}
+
+.explore-button{
+  position: relative;
+}
+.menuitem{
+  position: absolute;
+  background-color: white;
+  min-width: 250px;
+  opacity:0;
+  visibility: hidden;
+}
+.explore-button:focus-within .menuitem{
+  opacity: 1;
+visibility: visible;
+}
+.search{
+  margin-left: 0.5em;
+  display: flex;
+}
+.search-input{
+  padding: .8em;
+}
+.search-btn{
+background-image: url(/img/icon.png);
+background-repeat: no-repeat;
+height: 40px;
+width: 40px;
+background-position: center;
+background-color: blue;
+border: none;
+}

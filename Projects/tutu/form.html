@@ -1,0 +1,71 @@
+<html>
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="form.css">
+  <script type="text/javascript">
+    function calculate(operator){
+      alert(operator);
+      let value_1 = document.forms["calculator"]["value_one"].value;
+      console.log(value_1);
+      let value_2 = document.forms ["calculator"]["value_two"].value;
+      console.log(value_2);
+      let result;
+      if (operator=="sum") {
+        result=parseInt(value_1)+parseInt(value_2);
+      }
+      else if (operator=="minus") {
+        result=parseInt(value_1)-parseInt(value_2);
+      }
+      else if (operator=="multiply"){
+        result=parseInt(value_1)*parseInt(value_2);
+
+      }
+
+
+
+      console.log(result);
+      document.forms ["calculator"]["final-result"].value=result;
+
+    }
+
+
+    /*
+    function register(){
+      alert("sucessfully");
+      let value_1 = document.forms["login"]["value_one"].value;
+      console.log(value_1);
+      let value_2 = document.forms["login"]["value_two"].value;
+      console.log(value_2);
+    }*/
+  </script>
+</head>
+<body>
+
+<h1>User Form</h1>
+<form name="calculator">
+  <fieldset>
+  <legend>calculator:</legend>
+  <label for="value-one">Value 1:</label><br>
+  <input type="text" id="value-one" name="value_one"><br>
+  <label for="value-two">Value 2:</label><br>
+  <input type="text" id="value-two" name="value_two"><br>
+  <label for="result">Result:</label><br>
+  <input type="text" id="result" name="final-result" disabled><br>
+
+  <button type="button" onclick="calculate('sum')">+</button>
+  <button type="button" onclick="calculate('minus')">-</button>
+  <button type="button" onclick="calculate('multiply')">*</button>
+
+</fieldset>
+</form>
+<!--
+<form name="login">
+  <label for="u-name">User Name:</label><br>
+  <input type="text" id="u-name" name="value_one"><br>
+  <label for="password">Password:</label><br>
+  <input type="text" id="password" name="value_two"><br>
+  <button type="button" onclick="register()">Submit</button>
+</form>-->
+
+</body>
+</html>

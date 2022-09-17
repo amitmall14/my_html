@@ -1,0 +1,72 @@
+Event
+-onblur
+-onclick
+-toggle(on/off)
+
+Function
+-onclick
+-onblur
+-onload
+-setInterval
+-setTimeout
+-split
+-toUpperCase
+-toLowercase
+-parseInt
+
+Forms
+ - input type text 
+ - input type password
+ - input type button
+
+Array
+ - length
+ - index
+
+date
+Get getFullYear
+getDay
+
+
+CSS/html
+-backgroundColor
+-color
+-display
+-height
+-boxShadow
+-classList.add
+-classList.remove
+-innerHTML
+-innerText
+-length
+-type get/set
+
+
+Loop
+-for Loop
+-if
+-else
+-else if
+
+selector
+-document.getElementById
+-document.getElementsByClassName
+-document.getElementsByTagName
+
+cookie
+-get cookie
+-set cookie
+
+operator
++
++=
+==
+&&
+||
+<
+>
+!=
+-=
+%
+/
+*

@@ -1,0 +1,14 @@
+body{
+	background-color:grey;
+	
+}
+a{
+	font-weight:bold;
+}
+label, p{
+	font-weight:bold;
+	}
+h1,p,form {
+       color: black;
+       text-align: center;
+ }		

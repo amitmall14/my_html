@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .clock {
+        background-color: #111111;
+        color: #ffffff;
+        text-align: center;
+        font-size: 3em;
+        padding: 1em;
+        font-family: monospace;
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      .clock::after {
+        border-radius: 300px;
+        content: "";
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        width: 296px;
+        height: 296px;
+        opacity: 0.5;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,0.8295693277310925) 0%, rgba(0,212,255,0) 100%);
+      }
+      .analog .hands {
+        position: absolute;
+        content: "";
+        height: 100px;
+        width: 2px;
+        background-color: white;
+        left: 50%;
+        top: 50%;
+        margin-top: -50px;
+        transform-origin: left center;
+      }
+
+      #hand-minutes {
+        background-color: yellow;
+      }
+
+      #hand-hours {
+        background-color: red;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="clock" id="date-screen">
+      <!-- Here we will show the current Date -->
+    </div>
+
+    <div class="clock analog" id="date-screen">
+      <!-- Here we will show the current Date -->
+      <div class="hands" id="hand-seconds"></div>
+      <div class="hands" id="hand-minutes"></div>
+      <div class="hands" id="hand-hours"></div>
+    </div>
+
+    <script type="text/javascript">
+      var dateScreen = document.getElementById('date-screen');
+      var handSeconds = document.getElementById('hand-seconds');
+      var handMinutes = document.getElementById('hand-minutes');
+      var handHours = document.getElementById('hand-hours');
+
+
+      function displayTime() {
+        var myDate = new Date();
+        var myTime = myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+        dateScreen.innerText = myTime;
+
+        // analog clock
+        handSeconds.style.transform = "rotate(" + myDate.getSeconds() * 6 + "deg) translate(-50%, -50%)";
+        handMinutes.style.transform = "rotate(" + myDate.getMinutes() * 6 + "deg) translate(-50%, -50%)";
+        handHours.style.transform = "rotate(" + myDate.getHours() * (6 / 60 * 60) + "deg) translate(-50%, -50%)";
+      }
+
+      setInterval(displayTime, 1000);
+      displayTime();
+    </script>
+  </body>
+</html>

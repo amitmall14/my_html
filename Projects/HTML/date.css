@@ -1,0 +1,416 @@
+body{
+  margin:0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+}
+.top-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    font-size: 1.5em;
+}
+.foot-bar{
+  background-color: antiquewhite;
+  font-size: 1em;
+  bottom:0;
+}
+.foot-bar button{
+  padding: 1em;
+
+
+}
+
+
+
+.footers{
+  display: flex;
+justify-content: center;
+background-color: antiquewhite;
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 50px;
+}
+.loader-main{
+  height: 100%;
+  width:100%;
+  position:fixed;
+  background-color: lightgray;
+  z-index:9;
+  opacity: .8;
+}
+.loader-main span{
+  top: 50%;
+  left:50%;
+  position:absolute;}
+
+  .loader-main img{
+  height: 35px;
+  width: 35px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin:0 5px;
+
+}
+header{
+    border-bottom: 1px solid lightgray;
+
+}
+.menu a{
+font-size: 1em;
+text-decoration: none;
+color: black;
+font-weight: bold;
+padding: 34px;
+
+}
+.menu a:hover{
+  background-color: #56ac6f;
+  color: white;
+}
+
+.menu a.active{
+  background-color:#282a35;
+  color: white;
+
+}
+
+.container h1{
+  color: :white;
+
+}
+.button a{
+
+background-color: #56ac6f;
+color: white;
+font-size: 1em;
+border-radius: 100px;
+text-decoration: none;
+font-weight: bold;
+padding: .8em 1.8em;
+}
+
+.button{
+    margin-left: auto;
+}
+
+.middle{
+height: 50px;
+background-color:#0d1721;
+color: white;
+display: flex;
+justify-content: space-between;
+}
+.html a{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.right{
+  display: flex;
+  padding: 16px;
+  letter-spacing: 1em;
+}
+.left{
+  display: flex;
+  padding: 16px;
+  letter-spacing: 1em;
+
+}
+.html{
+  letter-spacing: .1em
+}
+.men img{
+  height: 78px;
+}
+.menu{
+  position:relative;
+
+}
+.menu div{
+  position: absolute;
+}
+#menu-list{
+  background-color: #e7e9eb;
+    top: 185px;
+    text-decoration: none;
+    display: none;
+    font-size: 1em;
+    text-align: center;
+}
+#menu-list a{
+  text-decoration: none;
+  line-height: 4em;
+color: black;
+font-weight: bold;
+}
+#menu-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.close{
+  display: flex;
+  justify-content: flex-end;
+  padding:1em 1em;
+
+}
+.desktop-menu{
+  display: none;
+}
+.menu-dropdown{
+  background-color: #282a35;
+  display: none;
+  color: white;
+  height: 200px;
+}
+.html{
+  display: none;
+}
+.add{
+  display: flex;
+  margin-left: 10px;
+}
+.show{
+  display: block !important;
+
+  max-height: 200px;
+  transition: max-height 5000ms ease-in-out;
+}
+#menuline{
+  background-color: #1d2a35;
+  color: black;
+  display: none;
+
+  justify-content: space-between;
+ transition: all 0.2s;
+  color: lightgray;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: verdana,sans-serif;
+}
+#menuline h3{
+  margin-left: 1em;
+  margin:0;
+  color: lightgray;
+  font-size: 25px;
+  padding: 12px;
+}
+#menuline ul {
+  margin: 0;
+}
+#menuline li{
+  list-style: none;
+}
+.close-x{
+  margin-right: 10px;
+
+}
+.popupbody{
+  margin: 0 20px;
+}
+
+
+.mystyle {
+  background-color:brown;
+}
+.imgw3 img{
+  height: 80px;
+  display: none;
+}
+.imgw3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.email{
+  display: flex;
+  justify-content: space-between;
+
+}
+.email a{
+  color: green;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.Password{
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 3em;
+
+}
+.buttons{
+  text-align: center;
+}
+.buttons input[type=button]{
+  font-size: 26px;
+border: 1px solid #ced4da;
+border-radius: 4px;
+padding:
+}
+.forget{
+  text-align: center;
+}
+.popup{
+  background-color: white;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: none;
+  border: 1px solid green;
+}
+.box{
+    text-align: center;
+
+}
+.box input[type=text]{
+  font-size: 26px;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      padding: 7px;
+
+}
+.box input[type=password]{
+  font-size: 26px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 7px;
+}
+#errorpassword{
+  color: red;
+  text-align: left;
+}
+.img_one {
+  max-width: 100%;
+
+  display: none;
+}
+.img_one img {
+  max-height: 200px;
+  width: 1280px;
+  object-fit: cover;
+  object-position: center;
+}
+.img-main{
+  max-width: 100%;
+  overflow: hidden;
+
+}
+.links {
+  text-align: center;
+  margin-top: 10px;
+}
+.links a {
+  background: #000;
+  color: #fff;
+  border-radius: 14px;
+  padding: 5px 9px;
+  margin: 5px;
+}
+.btn_img {
+  position: relative;
+}
+.lefts{
+  position: absolute;
+  top: 35%;
+}
+.rights{
+  position: absolute;
+  top: 35%;
+  right:1em;
+
+}
+.slide{
+  background-color: white;
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  padding: 5px 10px;
+    margin: 3px;
+}
+#current_slide{
+  background-color: white;
+
+}
+.fadeout {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+.fadein{
+  visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+.box_one{
+width: 5em;
+border: 5px solid black;
+padding: 45px;
+margin: 20px;
+}
+.main_box{
+  display: flex;
+}
+
+
+@media screen and (min-width: 1290px){
+  .mobile-menu, .imgw3 span{
+    display: none;
+  }
+  .desktop-menu{
+    display: block;
+  }
+
+
+  .html{
+    display: block;
+  }
+  .imgw3 img{
+    display: block;
+  }
+  .email{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 25em;
+  }
+  .Password{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 26em;
+    margin-top: 3em;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+let count=1;
+function submits() {
+
+
+console.log("helooooo");
+let studentname= document.getElementById('stname').value;
+console.log(studentname);
+let studentage= document.getElementById('stage').value;
+console.log(studentage);
+let rowid="row_"+count;
+document.getElementById('adddata').innerHTML+="<tr id="+rowid+"><td>"+count+"</td><td>"+studentname+"</td><td>"+studentage+"</td><td><input type='button' value='delete' onclick ='window.deleterow("+count+")'> </td></tr>";
+   count=count+1;
+}

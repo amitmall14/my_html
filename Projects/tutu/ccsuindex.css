@@ -1,0 +1,32 @@
+body{
+  background-color: gray;
+  margin: 0;
+}
+.mainmenu li{
+  display:inline;
+  font-family: sans-serif;
+  font-size: 2em;
+
+
+}
+.mainmenu
+{
+  background-color: blue;
+  margin:0;
+
+}
+
+h1
+{
+  color: yellow;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  background-color: pink;
+  opacity: .25;
+}
+.myclss{
+  position: fixed;
+  top:35;
+}

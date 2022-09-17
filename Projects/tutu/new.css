@@ -1,0 +1,44 @@
+body{
+  margin:4em;
+
+}
+.container{
+  background-color:#f7f7f7;
+  padding: 2em;
+}
+.main
+{
+  display: flex;
+}
+
+  .main button{
+  padding: .4em;
+  flex-grow: 1;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-left:  1px solid lightgray;
+}
+button:nth-child(2n){
+  background-color: red;
+}
+.main button:hover{
+  background-color: pink;}
+
+button:first-child{
+  border-radius: 8px 0px 0px 8px;
+}
+button:last-child
+{
+  border-radius: 0px 8px 8px 0px;
+}
+.active-button:active
+{
+background-color:forestgreen;
+}
+
+#js-btn:focus{
+  background-color:#72f9fb;}

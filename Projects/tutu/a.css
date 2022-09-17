@@ -1,0 +1,103 @@
+body
+
+{
+  margin: 0;
+  font-family: verdana;
+  font-size: 1.5em;
+}
+html{
+  font-size: 10px;
+}
+.header-top
+{
+  background-color: #eee;
+  display:flex;
+}
+.header-top-left-menu
+{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.header-top-left-menu li{
+  list-style: none;/*remove bullets*/
+}
+.header-top-left-menu li a{
+  padding: 1em;
+  color: #262626;
+  display: inline-block;/* to apply padding*/
+}
+.header-top-left-menu li a:hover, .header-bottom-right-menu li a:hover, .header-bottom-left-menu a:hover{
+  color: #0dba4b;
+}
+.header-top-right{
+  margin-left: auto;/* shift div to right*/
+
+}
+a
+{
+  text-decoration: none;/*remove underline*/
+}
+.header-top-right a{
+  color: #262626;
+  padding: 1em;
+  display: inline-block;
+}
+.header-bottom {
+  display: flex;
+  align-items: center;/* align item in single line*/
+  border-bottom: .1em gray solid;
+}
+.header-bottom-right-menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.header-bottom-right-menu li a {
+  padding: 1em;
+  display: inline-block;
+  color: #262626;
+}
+.header-bottom-right{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.header-bottom-left-menu a{
+  color: #262626;
+}
+.header-bottom-left-menu{
+  margin-left: 5em;
+}
+#button-login{
+  background-color: green;
+  border-radius: 8px;
+  color: #fff;
+
+}
+.content{
+  border-bottom:1px gray dotted;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+.h2{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid lightgray;
+
+}
+
+.footer-menu {
+list-style: none;
+display: inline-block;
+font-family: serif;
+text-decoration: none;
+
+}
+.footer-parent-div{
+  display: flex;
+  background-color: lightgray;
+}

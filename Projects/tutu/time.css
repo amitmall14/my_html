@@ -1,0 +1,128 @@
+.circle {
+  padding: 17%;
+  border-radius: 100%;
+  background-color: black;
+  width: 30px;
+  position: relative;
+}
+.second{
+
+padding: 1px;
+height: 133px;
+background-color: red;
+top: 77px;
+position: absolute;
+transform-origin: bottom;
+}
+.hour{
+  background-color: white;
+padding: 2px;
+height: 90px;
+top: 117px;
+position: absolute;
+transform-origin: bottom;
+}
+.minute{
+  background-color: blue;
+padding: 1.5px;
+height: 118px;
+top: 91px;
+position: absolute;
+transform-origin: bottom;
+
+}
+.main{
+  text-align: center;
+      background-color: aliceblue;
+      margin: 0% 32%;
+      height: 334px;
+}
+.count{
+  font-size: 57px;
+  color: green;
+}
+.count button{
+  border-radius: 6px;
+}
+
+.heading{
+  font-size: 20px;
+
+}
+#products{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #795548b0;
+
+}
+#detail{
+  display: flex;
+
+}
+.left img{
+  width: 500px;
+border: 2px solid lightgray;
+}
+.right{
+  margin-left: 60px;
+}
+
+.grid{
+
+border: 2px solid lightgray;
+padding: 20px;
+margin-right: 10px;
+margin-top: 35px;
+position: relative;
+}
+#addcarts{
+  display: none;
+}
+.soldout{
+  background-color: red;
+  width: 26px;
+  height: 28px;
+  color: white;
+  position: absolute;
+  left: 20px;
+  border-radius: 24px;
+  text-align: center;
+  top: 17px;
+  padding: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.newproduct{
+  background-color: blue;
+width: 26px;
+height: 28px;
+color: white;
+position: absolute;
+left: 168px;
+border-radius: 24px;
+text-align: center;
+top: 170px;
+padding: 12px;
+font-weight: bolder;
+text-transform: uppercase;
+font-size: 12px;
+
+}
+.discount{
+  background-color: green;
+width: 40px;
+height: 27px;
+color: white;
+position: absolute;
+right: 18px;
+border-radius: 24px;
+text-align: center;
+top: 17px;
+padding: 13px;
+font-weight: bolder;
+text-transform: uppercase;
+font-size: 12px;
+
+}
